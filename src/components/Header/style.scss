@@ -1,0 +1,39 @@
+header {
+  padding: 4rem 8rem 0 8rem;
+  font-family: "Secular One";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+  nav {
+    display: flex;
+    gap: 1rem;
+    a {
+      text-decoration: none;
+      button {
+        display: block;
+      }
+    }
+    button {
+      padding: 0.6rem 1.5rem;
+      background: none;
+      font: inherit;
+      cursor: pointer;
+      outline: inherit;
+      border: 1px solid var(--black);
+      border-radius: 10px;
+    }
+
+    button:hover {
+      text-decoration: underline;
+    }
+
+    .dark-button {
+      background: var(--black);
+      color: var(--white);
+    }
+  }
+}

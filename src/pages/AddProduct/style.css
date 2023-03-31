@@ -1,0 +1,21 @@
+#product_form {
+  padding: 4rem 8rem 4rem 8rem;
+  display: flex;
+  flex-direction: column;
+}
+#product_form .input_container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+#product_form .input_container label {
+  width: 10rem;
+}
+#product_form .attribute-description {
+  display: flex;
+  width: 100%;
+  margin-top: 1rem;
+}
+#product_form .error-message {
+  color: red;
+}/*# sourceMappingURL=style.css.map */

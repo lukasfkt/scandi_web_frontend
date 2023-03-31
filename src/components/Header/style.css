@@ -1,0 +1,37 @@
+header {
+  padding: 4rem 8rem 0 8rem;
+  font-family: "Secular One";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1 {
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+header nav {
+  display: flex;
+  gap: 1rem;
+}
+header nav a {
+  text-decoration: none;
+}
+header nav a button {
+  display: block;
+}
+header nav button {
+  padding: 0.6rem 1.5rem;
+  background: none;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  border: 1px solid var(--black);
+  border-radius: 10px;
+}
+header nav button:hover {
+  text-decoration: underline;
+}
+header nav .dark-button {
+  background: var(--black);
+  color: var(--white);
+}/*# sourceMappingURL=style.css.map */

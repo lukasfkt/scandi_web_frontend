@@ -1,0 +1,9 @@
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 4rem 8rem 4rem 8rem;
+}
+main .no-products {
+  font-size: 1.2rem;
+}/*# sourceMappingURL=style.css.map */
