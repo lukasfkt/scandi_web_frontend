@@ -4,7 +4,7 @@ import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";
 import { api } from "../../services/api";
 
-import "./style.css";
+import "./style.scss";
 
 interface formDataType {
   [key: string]: FormDataEntryValue;

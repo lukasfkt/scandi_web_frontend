@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import { api } from "../../services/api";
 import { Card } from "../../components/Card";
 
-import "./style.css";
+import "./style.scss";
 
 export interface Product {
   id: string;

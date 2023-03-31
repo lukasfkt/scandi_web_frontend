@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Product } from "../../pages/ListProducts";
 
-import "./style.css";
+import "./style.scss";
 
 interface CardProps {
   product: Product;
