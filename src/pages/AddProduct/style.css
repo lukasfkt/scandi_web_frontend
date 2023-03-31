@@ -1,5 +1,5 @@
 #product_form {
-  padding: 4rem 8rem 4rem 8rem;
+  padding: 4rem 4rem 4rem 4rem;
   display: flex;
   flex-direction: column;
 }
@@ -18,4 +18,10 @@
 }
 #product_form .error-message {
   color: red;
+}
+
+@media screen and (max-width: 720px) {
+  #product_form {
+    justify-content: center;
+  }
 }/*# sourceMappingURL=style.css.map */

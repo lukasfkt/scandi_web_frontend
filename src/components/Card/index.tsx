@@ -28,7 +28,12 @@ export function Card({ product, onInputChange }: CardProps) {
           : { background: "var(--yellow)" }
       }
     >
-      <input type="checkbox" value={id} onChange={handleInputChange} />
+      <input
+        type="checkbox"
+        className="delete-checkbox"
+        value={id}
+        onChange={handleInputChange}
+      />
       <div className="card-content">
         <span className="card-title-sku">{sku}</span>
         <p>{name}</p>

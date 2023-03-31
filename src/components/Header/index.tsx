@@ -22,7 +22,7 @@ export function Header({ title, deleteProducts }: HeaderProps) {
             <button className="dark-button">ADD</button>
           </NavLink>
           <button
-            id="#delete-product-btn"
+            id="delete-product-btn"
             title="Delete Products"
             onClick={handleDeleteProducts}
           >

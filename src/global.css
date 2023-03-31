@@ -22,4 +22,10 @@ body {
   font-size: 1rem;
   -webkit-font-smoothing: antialiased;
   height: 100vh;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=global.css.map */

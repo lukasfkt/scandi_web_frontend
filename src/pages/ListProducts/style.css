@@ -2,8 +2,15 @@ main {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
-  padding: 4rem 8rem 4rem 8rem;
+  padding: 4rem 4rem 4rem 4rem;
+  height: auto;
 }
 main .no-products {
   font-size: 1.2rem;
+}
+
+@media screen and (max-width: 720px) {
+  main {
+    justify-content: center;
+  }
 }/*# sourceMappingURL=style.css.map */
